@@ -1,0 +1,126 @@
+  /* Estilo del body en modo claro */
+
+  body  {
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    /* transition: background-color 0.3s, color 0.3s; */
+    font-size: 15px;
+}
+
+
+#nave {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  margin: 20px;
+  font-size: 20px;
+}
+  /* Estilo boton en modo claro */
+
+  #BotonModo {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(30, 30, 35);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+/* Estilo del body en modo oscuro */
+
+  .dark-mode {
+    background-color: rgb(30, 30, 35);
+    color: white;
+  }
+
+
+/* Estilo del boton en modo oscuro */
+
+  .dark-mode #BotonModo {
+    background-color: white;
+    color: black;
+  }
+
+  #H1 {
+    font-size: 20px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    justify-content: left;
+    text-align: left;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 60px;
+  }
+
+.dark-mode #H1 {
+  font-size: 20px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  justify-content: right;
+  text-align: right;
+  border-color: rgb(247, 247, 247);
+  border-radius: 10px;
+  margin: 60px;
+}
+#H2 {
+  font-size: 20px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  justify-content: left;
+  text-align: left;
+  border-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 60px;
+}
+
+.dark-mode #H2 {
+font-size: 20px;
+display: flex;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+justify-content: right;
+text-align: right;
+border-color: rgb(247, 247, 247);
+border-radius: 10px;
+margin: 60px;
+}
+
+
+#H3 {
+  font-size: 20px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  justify-content: left;
+  text-align: left;
+  border-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 60px;
+}
+
+.dark-mode #H3 {
+font-size: 20px;
+display: flex;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+justify-content: right;
+text-align: right;
+border-color: rgb(247, 247, 247);
+border-radius: 10px;
+margin: 60px;
+}
+
+
+
+
+
